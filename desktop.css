@@ -1,0 +1,13 @@
+/**
+ * Media Queries
+ *******************************************
+ */
+/*@media only screen and (min-width: 600px) {*/
+.main h2 {
+  font-size: 30px;
+}
+
+footer {
+  align-items: flex-start;
+  flex-direction: column;
+}
