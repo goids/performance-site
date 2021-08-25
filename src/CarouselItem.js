@@ -14,7 +14,7 @@ const Controls = ({ slug, youtubeVideoId }) =>
         target: '_blank',
         rel: 'noreferrer',
       },
-      h('img', {
+      h('img.carousel-item__icon', {
         src: 'assets/play-icon.png',
         alt: 'Play',
       })
@@ -27,7 +27,7 @@ const Controls = ({ slug, youtubeVideoId }) =>
         target: '_blank',
         rel: 'noreferrer',
       },
-      h('img', {
+      h('img.carousel-item__icon', {
         src: 'assets/plus-icon.png',
         alt: 'More info',
       })
@@ -48,9 +48,9 @@ const CarouselItem = ({
     h(
       'div',
       Controls({ slug, youtubeVideoId }),
-      h('p', title),
-      h('p', subtitle),
-      h('p', `Released: ${relativeDate(startDate)}`)
+      h('p.carousel-item__title', title),
+      h('p.carousel-item__subtitle', subtitle),
+      h('p.carousel-item__realease', `Released: ${relativeDate(startDate)}`)
     )
   )
 

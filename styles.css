@@ -2,9 +2,17 @@
  * Home page
  *******************************************
  */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html.wf-active {
+  font-family: 'Muli';
+}
+
 body {
   margin: 0;
-  font-family: 'Muli', sans-serif;
   background: #21c08b;
   background-image: linear-gradient(#21c08b, #8f57fd);
 }
@@ -58,12 +66,6 @@ header {
 
 .logo {
   margin-left: 30px;
-  width: 200px;
-  height: 61px;
-  background-image: url(/assets/logo-platzi-video.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .menu {
@@ -89,22 +91,27 @@ ul:hover {
   margin: 10px 0px;
 }
 
-.menu li a {
+.menu__account {
   color: white;
   text-decoration: none;
 }
 
-.menu li a:hover {
+.menu__account:hover {
   text-decoration: underline;
 }
 
-.menu > div {
+.menu__container {
   align-items: center;
   display: flex;
   cursor: pointer;
 }
 
-.menu > div > img {
+.menu__container > svg {
+  margin-right: 8px;
+  width: 40px;
+}
+
+.header__menu {
   margin-right: 8px;
   width: 40px;
 }
@@ -269,23 +276,23 @@ footer a:hover {
   opacity: 1;
 }
 
-.carousel-item > div > div a > img {
+.carousel-item__icon {
   width: 20px;
 }
 
 /* Title */
-.carousel-item > div > p:nth-of-type(1) {
+.carousel-item__title {
   color: white;
   margin: 5px 0px 0px 0px;
 }
 /* Subtitle */
-.carousel-item > div > p:nth-of-type(2) {
+.carousel-item__subtitle {
   color: white;
   font-size: 7px;
   margin: 3px 0px;
 }
 /* Date */
-.carousel-item > div > p:nth-of-type(3) {
+.carousel-item__release {
   color: white;
   font-size: 6px;
   margin: 0px;
