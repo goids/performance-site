@@ -1,10 +1,6 @@
-# Proyecto Curso de Optimización Web Platzi
+# Proyecto Curso de Optimización Web
 
-Curso de optimización web dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para [Platzi](https://platzi.com)
-
-### 🚀 Optimizaciones aplicadas
-
-1.  fixme
+Curso de optimización web dictado por [@goidsdev](https://twitter.com/goidsdev), sitio web esta generado estaticamente y lo puedes encontrar en el siguiente link()
 
 ### 🤖 Guía Rápida
 
