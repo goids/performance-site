@@ -1,0 +1,15 @@
+#Flujo para ejecutar un buil en producción (rama main) en netlify
+#con el proposito de mantener nuestro sitio actualizado
+name: Trigger Netlify Build
+
+on:
+  schedule:
+    - cron: '0 10 * * 1'
+
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/615c7ebdbe17450847f4bf6a
