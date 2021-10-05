@@ -22,6 +22,8 @@ Curso de optimización web dictado por [@jonalvarezz](https://twitter.com/jonalv
     npm start
     ```
 
-    El sitio estará disponible en http://localhost:8080.
+    El sitio estará disponible en http://localhost:3000.
 
     Happy hacking!
+
+    El proyecto es una applicación de NodeJS.
