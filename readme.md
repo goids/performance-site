@@ -1,6 +1,6 @@
 # Proyecto Curso de Optimización Web
 
-Curso de optimización web dictado por [@goidsdev](https://twitter.com/goidsdev), sitio web esta generado estaticamente y lo puedes encontrar en el siguiente link()
+Curso de optimización web dictado por [@goidsdev](https://twitter.com/goidsdev), sitio web esta generado estaticamente y lo puedes encontrar en el siguiente link(https://performance-react.netlify.app/)
 
 ### 🤖 Guía Rápida
 
