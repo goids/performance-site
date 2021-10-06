@@ -19,7 +19,7 @@ async function cacheOrFetch(event) {
   if (
     !response ||
     response.status !== 200 ||
-    response - type !== 'basic' ||
+    response.type !== 'basic' ||
     !isAssetCss(event.request.url)
   ) {
     return response

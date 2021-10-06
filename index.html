@@ -140,7 +140,7 @@
                 /></a>
               </div>
               <p class="carousel-item__title">
-                Demon Slayer Movie: Infinity Train
+                Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Train
               </p>
               <p class="carousel-item__subtitle">劇場版 鬼滅の刃 無限列車編</p>
               <p class="carousel-item__realease">Released: 12 months</p>
@@ -852,6 +852,13 @@
           families: ['Muli'],
         },
       })
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./service-worker.js')
+        })
+      }
     </script>
   </body>
 </html>
