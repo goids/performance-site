@@ -34,7 +34,6 @@ async function cacheOrFetch(event) {
 }
 
 const assetsRegExp = /.png|.gif|.jpg|.jpeg|.css|.js/g
-
 function isAssetCss(url) {
   return assetsRegExp.test(url)
 }
